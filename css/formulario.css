@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input{
+    margin:5px;
+    width: 450px;
+}
+
+#div1{
+    display:inline-block;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+    width:500px;
+}
+
+#div1 p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#button1{
+    background-color: lightblue;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+h1{
+    margin: 10px;
+    text-align:left;
+    font-weight:20;
+}
+
+h3{
+    margin: 10px;
+    font-weight: normal;
+}
+
+.datos{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
