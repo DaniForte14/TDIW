@@ -17,9 +17,10 @@ input{
     width:500px;
 }
 
-#div1 p{
-    text-align: left;
-    margin-left: 20px;
+label{
+    font-weight: bold;
+    float:left;
+    margin-left: 25px;
 }
 
 #button1{
@@ -37,9 +38,4 @@ h1{
 h3{
     margin: 10px;
     font-weight: normal;
-}
-
-.datos{
-    margin-bottom: 0px;
-    font-weight: bold;
 }

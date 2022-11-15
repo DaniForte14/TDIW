@@ -75,3 +75,20 @@ img{
     cursor:pointer;
     background-color: aliceblue;
 }
+
+li{
+    margin:25px;
+    padding: 10px;
+    display:inline-block;
+    text-align: center;
+    background-color: lightblue;
+}
+
+li:hover{
+    cursor:pointer;
+    background-color: aliceblue;
+}
+
+ul{
+    display:flex;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang>
 <head>
     <meta charset="UTF-8" />
     <title> Login </title>
@@ -8,15 +8,15 @@
 
 <body>
     <header>
-        <p>Logo</p>
+        <a href = "/../index.php">Logo</a>
     </header>
     <div id="div1">
         <form method="post" action="" class="formulario">
             <h1>Iniciar sesión</h1>
-            <p class="datos">Nombre</p>
+            <label for="name">Nombre</label>
             <input type="text" name="nombre" pattern="^[A-Za-z \s*]+$" required>
 
-            <p class="datos">Contraseña</p>
+            <label for="password">Contraseña</label>
             <input type="password" name="contrasenya" pattern="^[A-Za-z0-9]+$" required>
             <br>
             <input type="submit" name="login" value="Iniciar sessión" id="button1">
@@ -24,7 +24,7 @@
     </div>
     <div>
         <h3>No tienes cuenta?</h3>
-        <a href = "registre.php"> <input type="submit" value="Crea tu cuenta"</a>
+        <a href = "/../index.php?accio=register"> <input type="submit" value="Crea tu cuenta"</a>
     </div>
 </body>
 </html>
