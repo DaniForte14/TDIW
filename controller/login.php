@@ -2,7 +2,7 @@
 
 
 $email = $_POST["EMAIL"];
-$pswd = $_POST["CONTRASENYA"];
+$password = $_POST["CONTRASENYA"];
 
 
 
