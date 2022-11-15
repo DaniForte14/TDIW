@@ -24,7 +24,7 @@
     </div>
     <div>
         <h3>No tienes cuenta?</h3>
-        <a href = "/../index.php?accio=register"> <input type="submit" value="Crea tu cuenta"</a>
+        <a href = "/../index.php?accio=register"> <input type="submit" value="Crea tu cuenta" >
     </div>
 </body>
 </html>
