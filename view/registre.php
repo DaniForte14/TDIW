@@ -1,4 +1,4 @@
-<form method="post" action="" class="formulario">
+<form method="post" action='index.php?accio=register' class="formulario">
     <h1>Crear cuenta</h1>
     <label for="name">Nom</label>
     <input type="text" name="nom" required>
